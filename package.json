@@ -1,31 +1,34 @@
 {
   "name": "@calitb/react-native-widgetkit",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "WidgetKit in React Native",
   "main": "build/ReactNativeWidgetKit.js",
   "types": "build/ReactNativeWidgetKit.d.ts",
   "scripts": {
-    "build": "tsc",
-    "lint": "eslint ."
+    "build": "expo-module build",
+    "lint": "expo-module lint",
   },
   "keywords": [
     "react-native",
     "expo",
-    "react-native-widgetkey",
+    "react-native-widgetkit",
     "ReactNativeWidgetKit"
   ],
   "repository": "https://github.com/calitb/react-native-widgetkit",
   "author": "Carlos Thurber",
   "license": "MIT",
   "homepage": "https://github.com/calitb/react-native-widgetkit",
-  "dependencies": {
-    "expo-modules-core": "0.11.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "expo-module-scripts": "2.1.1"
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "expo-module-scripts": "^3.0.3",
+    "expo-modules-core": "^1.0.3"
   },
   "peerDependencies": {
-    "expo": "*"
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
   },
   "publishConfig": {
     "access": "public"

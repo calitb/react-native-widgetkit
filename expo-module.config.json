@@ -1,6 +1,6 @@
 {
   "platforms": ["ios"],
   "ios": {
-    "modulesClassNames": ["ReactNativeWidgetKitModule"]
+    "modules": ["ReactNativeWidgetKitModule"]
   }
 }

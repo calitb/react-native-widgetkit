@@ -4,9 +4,9 @@ import WidgetKit
 public class ReactNativeWidgetKitModule: Module {
 
   public func definition() -> ModuleDefinition {
-    name("ReactNativeWidgetKit")
+    Name("ReactNativeWidgetKit")
 
-    function("reloadAllTimelines") { () in
+    Function("reloadAllTimelines") { () in
         if #available(iOS 14.0, *) {
           WidgetCenter.shared.reloadAllTimelines()
         }
