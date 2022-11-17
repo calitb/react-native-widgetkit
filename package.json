@@ -6,7 +6,7 @@
   "types": "build/ReactNativeWidgetKit.d.ts",
   "scripts": {
     "build": "expo-module build",
-    "lint": "expo-module lint",
+    "lint": "expo-module lint"
   },
   "keywords": [
     "react-native",
