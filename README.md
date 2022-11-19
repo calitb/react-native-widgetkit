@@ -31,6 +31,6 @@ interface WidgetKit {
   /* Standard object */
   standard: WidgetKit;
   /* Reloads the timelines for all configured widgets belonging to the containing app. */
-  eloadAllTimelines(): Promise<any>;
+  reloadAllTimelines(): Promise<any>;
 }
 ```
